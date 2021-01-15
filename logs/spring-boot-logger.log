@@ -1,0 +1,408 @@
+2021-01-15 07:17:50,266 INFO org.springframework.boot.StartupInfoLogger [main] Starting App on DESKTOP-I7S7LJR with PID 17948 (D:\triple-t-bot\target\classes started by wadel in D:\triple-t-bot)
+2021-01-15 07:17:50,269 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-01-15 07:17:50,809 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-15 07:17:50,888 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 70ms. Found 3 JPA repository interfaces.
+2021-01-15 07:17:51,240 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-01-15 07:17:51,370 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-01-15 07:17:51,682 INFO liquibase.logging.core.JavaLogger [main] Successfully acquired change log lock
+2021-01-15 07:17:51,882 INFO liquibase.logging.core.JavaLogger [main] Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2021-01-15 07:17:51,885 INFO liquibase.logging.core.JavaLogger [main] Reading from PUBLIC.DATABASECHANGELOG
+2021-01-15 07:17:51,963 INFO liquibase.logging.core.JavaLogger [main] Table users created
+2021-01-15 07:17:51,965 INFO liquibase.logging.core.JavaLogger [main] Table messages created
+2021-01-15 07:17:51,968 INFO liquibase.logging.core.JavaLogger [main] Table domains created
+2021-01-15 07:17:51,969 INFO liquibase.logging.core.JavaLogger [main] ChangeSet db/changelog/db.changelog-main.yml::1::reed ran successfully in 19ms
+2021-01-15 07:17:51,984 INFO liquibase.logging.core.JavaLogger [main] Successfully released change log lock
+2021-01-15 07:17:52,075 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:17:52,084 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-01-15 07:17:52,124 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-15 07:17:52,186 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-15 07:17:52,376 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-15 07:17:52,502 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-15 07:17:53,107 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-15 07:17:53,119 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:17:53,172 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2021-01-15 07:17:53,488 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2021-01-15 07:17:53,500 INFO org.springframework.boot.StartupInfoLogger [main] Started App in 3.88 seconds (JVM running for 5.053)
+2021-01-15 07:18:08,970 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:18:08,973 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-01-15 07:18:08,973 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:18:08,974 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-01-15 07:18:08,976 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-01-15 07:20:28,451 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-15 07:20:28,534 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 71ms. Found 3 JPA repository interfaces.
+2021-01-15 07:20:28,902 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-01-15 07:20:29,039 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-01-15 07:20:29,397 INFO liquibase.logging.core.JavaLogger [main] Successfully acquired change log lock
+2021-01-15 07:20:29,605 INFO liquibase.logging.core.JavaLogger [main] Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2021-01-15 07:20:29,608 INFO liquibase.logging.core.JavaLogger [main] Reading from PUBLIC.DATABASECHANGELOG
+2021-01-15 07:20:29,688 INFO liquibase.logging.core.JavaLogger [main] Table users created
+2021-01-15 07:20:29,692 INFO liquibase.logging.core.JavaLogger [main] Table messages created
+2021-01-15 07:20:29,695 INFO liquibase.logging.core.JavaLogger [main] Table domains created
+2021-01-15 07:20:29,695 INFO liquibase.logging.core.JavaLogger [main] ChangeSet db/changelog/db.changelog-main.yml::1::reed ran successfully in 19ms
+2021-01-15 07:20:29,711 INFO liquibase.logging.core.JavaLogger [main] Successfully released change log lock
+2021-01-15 07:20:29,813 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:20:29,822 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-01-15 07:20:29,866 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-15 07:20:29,926 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-15 07:20:30,108 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-15 07:20:30,246 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-15 07:20:30,851 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-15 07:20:30,863 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:20:30,932 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2021-01-15 07:20:31,277 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2021-01-15 07:20:37,652 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:20:37,655 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-01-15 07:20:37,656 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:20:37,656 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-01-15 07:20:37,659 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-01-15 07:20:41,724 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.PatternLayout("null") - Empty or null pattern.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:306)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.reed.telegram.App.main(App.java:16)
+2021-01-15 07:21:16,316 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-15 07:21:16,399 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 71ms. Found 3 JPA repository interfaces.
+2021-01-15 07:21:16,742 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-01-15 07:21:16,876 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-01-15 07:21:17,189 INFO liquibase.logging.core.JavaLogger [main] Successfully acquired change log lock
+2021-01-15 07:21:17,393 INFO liquibase.logging.core.JavaLogger [main] Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2021-01-15 07:21:17,395 INFO liquibase.logging.core.JavaLogger [main] Reading from PUBLIC.DATABASECHANGELOG
+2021-01-15 07:21:17,469 INFO liquibase.logging.core.JavaLogger [main] Table users created
+2021-01-15 07:21:17,472 INFO liquibase.logging.core.JavaLogger [main] Table messages created
+2021-01-15 07:21:17,474 INFO liquibase.logging.core.JavaLogger [main] Table domains created
+2021-01-15 07:21:17,474 INFO liquibase.logging.core.JavaLogger [main] ChangeSet db/changelog/db.changelog-main.yml::1::reed ran successfully in 18ms
+2021-01-15 07:21:17,490 INFO liquibase.logging.core.JavaLogger [main] Successfully released change log lock
+2021-01-15 07:21:17,583 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:21:17,592 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-01-15 07:21:17,631 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-15 07:21:17,687 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-15 07:21:17,847 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-15 07:21:17,983 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-15 07:21:18,597 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-15 07:21:18,608 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:21:18,772 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2021-01-15 07:21:19,081 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2021-01-15 07:21:26,523 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:21:26,525 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-01-15 07:21:26,525 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:21:26,525 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-01-15 07:21:26,528 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-01-15 07:21:30,499 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.ConsoleAppender[Console] - No encoder set for the appender named "Console".
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:306)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.reed.telegram.App.main(App.java:16)
+2021-01-15 07:21:43,209 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-15 07:21:43,316 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 89ms. Found 3 JPA repository interfaces.
+2021-01-15 07:21:43,679 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-01-15 07:21:43,818 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-01-15 07:21:44,136 INFO liquibase.logging.core.JavaLogger [main] Successfully acquired change log lock
+2021-01-15 07:21:44,343 INFO liquibase.logging.core.JavaLogger [main] Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2021-01-15 07:21:44,346 INFO liquibase.logging.core.JavaLogger [main] Reading from PUBLIC.DATABASECHANGELOG
+2021-01-15 07:21:44,438 INFO liquibase.logging.core.JavaLogger [main] Table users created
+2021-01-15 07:21:44,450 INFO liquibase.logging.core.JavaLogger [main] Table messages created
+2021-01-15 07:21:44,453 INFO liquibase.logging.core.JavaLogger [main] Table domains created
+2021-01-15 07:21:44,453 INFO liquibase.logging.core.JavaLogger [main] ChangeSet db/changelog/db.changelog-main.yml::1::reed ran successfully in 30ms
+2021-01-15 07:21:44,470 INFO liquibase.logging.core.JavaLogger [main] Successfully released change log lock
+2021-01-15 07:21:44,568 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:21:44,576 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-01-15 07:21:44,622 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-15 07:21:44,688 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-15 07:21:44,881 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-15 07:21:45,020 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-15 07:21:45,716 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-15 07:21:45,728 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:21:45,796 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2021-01-15 07:21:46,143 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2021-01-15 07:22:15,323 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:22:15,325 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-01-15 07:22:15,325 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:22:15,326 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-01-15 07:22:15,328 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-01-15 07:22:20,106 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-15 07:22:20,193 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 74ms. Found 3 JPA repository interfaces.
+2021-01-15 07:22:20,547 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-01-15 07:22:20,679 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-01-15 07:22:20,992 INFO liquibase.logging.core.JavaLogger [main] Successfully acquired change log lock
+2021-01-15 07:22:21,193 INFO liquibase.logging.core.JavaLogger [main] Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2021-01-15 07:22:21,197 INFO liquibase.logging.core.JavaLogger [main] Reading from PUBLIC.DATABASECHANGELOG
+2021-01-15 07:22:21,284 INFO liquibase.logging.core.JavaLogger [main] Table users created
+2021-01-15 07:22:21,287 INFO liquibase.logging.core.JavaLogger [main] Table messages created
+2021-01-15 07:22:21,289 INFO liquibase.logging.core.JavaLogger [main] Table domains created
+2021-01-15 07:22:21,290 INFO liquibase.logging.core.JavaLogger [main] ChangeSet db/changelog/db.changelog-main.yml::1::reed ran successfully in 25ms
+2021-01-15 07:22:21,305 INFO liquibase.logging.core.JavaLogger [main] Successfully released change log lock
+2021-01-15 07:22:21,391 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:22:21,399 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-01-15 07:22:21,439 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-15 07:22:21,497 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-15 07:22:21,658 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-15 07:22:21,795 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-15 07:22:22,414 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-15 07:22:22,425 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:22:22,493 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2021-01-15 07:22:22,811 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2021-01-15 07:27:58,117 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:27:58,120 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-01-15 07:27:58,120 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:27:58,121 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-01-15 07:27:58,123 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-01-15 07:28:02,695 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-15 07:28:02,776 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 69ms. Found 3 JPA repository interfaces.
+2021-01-15 07:28:03,113 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-01-15 07:28:03,248 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-01-15 07:28:03,565 INFO liquibase.logging.core.JavaLogger [main] Successfully acquired change log lock
+2021-01-15 07:28:03,765 INFO liquibase.logging.core.JavaLogger [main] Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2021-01-15 07:28:03,768 INFO liquibase.logging.core.JavaLogger [main] Reading from PUBLIC.DATABASECHANGELOG
+2021-01-15 07:28:03,845 INFO liquibase.logging.core.JavaLogger [main] Table users created
+2021-01-15 07:28:03,848 INFO liquibase.logging.core.JavaLogger [main] Table messages created
+2021-01-15 07:28:03,851 INFO liquibase.logging.core.JavaLogger [main] Table domains created
+2021-01-15 07:28:03,851 INFO liquibase.logging.core.JavaLogger [main] ChangeSet db/changelog/db.changelog-main.yml::1::reed ran successfully in 19ms
+2021-01-15 07:28:03,867 INFO liquibase.logging.core.JavaLogger [main] Successfully released change log lock
+2021-01-15 07:28:03,963 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:28:03,971 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-01-15 07:28:04,014 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-15 07:28:04,074 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-15 07:28:04,239 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-15 07:28:04,381 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-15 07:28:04,996 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-15 07:28:05,008 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:28:05,070 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2021-01-15 07:28:05,384 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2021-01-15 07:31:19,935 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:31:19,937 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-01-15 07:31:19,938 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:31:19,938 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-01-15 07:31:19,940 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-01-15 07:31:25,115 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-15 07:31:25,200 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 73ms. Found 3 JPA repository interfaces.
+2021-01-15 07:31:25,554 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-01-15 07:31:25,688 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-01-15 07:31:26,008 INFO liquibase.logging.core.JavaLogger [main] Successfully acquired change log lock
+2021-01-15 07:31:26,215 INFO liquibase.logging.core.JavaLogger [main] Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2021-01-15 07:31:26,218 INFO liquibase.logging.core.JavaLogger [main] Reading from PUBLIC.DATABASECHANGELOG
+2021-01-15 07:31:26,306 INFO liquibase.logging.core.JavaLogger [main] Table users created
+2021-01-15 07:31:26,309 INFO liquibase.logging.core.JavaLogger [main] Table messages created
+2021-01-15 07:31:26,312 INFO liquibase.logging.core.JavaLogger [main] Table domains created
+2021-01-15 07:31:26,313 INFO liquibase.logging.core.JavaLogger [main] ChangeSet db/changelog/db.changelog-main.yml::1::reed ran successfully in 29ms
+2021-01-15 07:31:26,329 INFO liquibase.logging.core.JavaLogger [main] Successfully released change log lock
+2021-01-15 07:31:26,424 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:31:26,433 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-01-15 07:31:26,473 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-15 07:31:26,538 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-15 07:31:26,726 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-15 07:31:26,864 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-15 07:31:27,503 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-15 07:31:27,516 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:31:27,557 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2021-01-15 07:31:27,878 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2021-01-15 07:32:08,344 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:32:08,347 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-01-15 07:32:08,347 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:32:08,348 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-01-15 07:32:08,350 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-01-15 07:32:13,133 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-15 07:32:13,228 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 83ms. Found 3 JPA repository interfaces.
+2021-01-15 07:32:13,579 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-01-15 07:32:13,714 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-01-15 07:32:14,036 INFO liquibase.logging.core.JavaLogger [main] Successfully acquired change log lock
+2021-01-15 07:32:14,244 INFO liquibase.logging.core.JavaLogger [main] Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2021-01-15 07:32:14,248 INFO liquibase.logging.core.JavaLogger [main] Reading from PUBLIC.DATABASECHANGELOG
+2021-01-15 07:32:14,331 INFO liquibase.logging.core.JavaLogger [main] Table users created
+2021-01-15 07:32:14,334 INFO liquibase.logging.core.JavaLogger [main] Table messages created
+2021-01-15 07:32:14,337 INFO liquibase.logging.core.JavaLogger [main] Table domains created
+2021-01-15 07:32:14,337 INFO liquibase.logging.core.JavaLogger [main] ChangeSet db/changelog/db.changelog-main.yml::1::reed ran successfully in 19ms
+2021-01-15 07:32:14,361 INFO liquibase.logging.core.JavaLogger [main] Successfully released change log lock
+2021-01-15 07:32:14,446 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:32:14,455 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-01-15 07:32:14,496 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-15 07:32:14,559 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-15 07:32:14,729 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-15 07:32:14,859 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-15 07:32:15,495 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-15 07:32:15,507 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:32:15,548 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2021-01-15 07:32:15,882 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2021-01-15 07:34:43,095 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:34:43,097 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-01-15 07:34:43,098 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:34:43,098 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-01-15 07:34:43,101 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-01-15 07:34:47,809 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-15 07:34:47,890 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 70ms. Found 3 JPA repository interfaces.
+2021-01-15 07:34:48,244 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-01-15 07:34:48,381 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-01-15 07:34:48,696 INFO liquibase.logging.core.JavaLogger [main] Successfully acquired change log lock
+2021-01-15 07:34:48,895 INFO liquibase.logging.core.JavaLogger [main] Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2021-01-15 07:34:48,898 INFO liquibase.logging.core.JavaLogger [main] Reading from PUBLIC.DATABASECHANGELOG
+2021-01-15 07:34:48,974 INFO liquibase.logging.core.JavaLogger [main] Table users created
+2021-01-15 07:34:48,977 INFO liquibase.logging.core.JavaLogger [main] Table messages created
+2021-01-15 07:34:48,979 INFO liquibase.logging.core.JavaLogger [main] Table domains created
+2021-01-15 07:34:48,980 INFO liquibase.logging.core.JavaLogger [main] ChangeSet db/changelog/db.changelog-main.yml::1::reed ran successfully in 18ms
+2021-01-15 07:34:48,996 INFO liquibase.logging.core.JavaLogger [main] Successfully released change log lock
+2021-01-15 07:34:49,090 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:34:49,099 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-01-15 07:34:49,138 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-15 07:34:49,202 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-15 07:34:49,392 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-15 07:34:49,520 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-15 07:34:50,120 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-15 07:34:50,130 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:34:50,207 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2021-01-15 07:34:50,529 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2021-01-15 07:37:13,839 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:37:13,842 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-01-15 07:37:13,842 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:37:13,843 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-01-15 07:37:13,846 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-01-15 07:38:50,880 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-15 07:38:50,962 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 70ms. Found 3 JPA repository interfaces.
+2021-01-15 07:38:51,335 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-01-15 07:38:51,467 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-01-15 07:38:51,780 INFO liquibase.logging.core.JavaLogger [main] Successfully acquired change log lock
+2021-01-15 07:38:51,979 INFO liquibase.logging.core.JavaLogger [main] Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2021-01-15 07:38:51,982 INFO liquibase.logging.core.JavaLogger [main] Reading from PUBLIC.DATABASECHANGELOG
+2021-01-15 07:38:52,059 INFO liquibase.logging.core.JavaLogger [main] Table users created
+2021-01-15 07:38:52,062 INFO liquibase.logging.core.JavaLogger [main] Table messages created
+2021-01-15 07:38:52,072 INFO liquibase.logging.core.JavaLogger [main] Table domains created
+2021-01-15 07:38:52,072 INFO liquibase.logging.core.JavaLogger [main] ChangeSet db/changelog/db.changelog-main.yml::1::reed ran successfully in 26ms
+2021-01-15 07:38:52,088 INFO liquibase.logging.core.JavaLogger [main] Successfully released change log lock
+2021-01-15 07:38:52,173 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:38:52,183 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-01-15 07:38:52,225 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-15 07:38:52,281 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-15 07:38:52,440 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-15 07:38:52,575 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-15 07:38:53,203 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-15 07:38:53,220 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:38:53,278 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2021-01-15 07:38:53,604 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2021-01-15 07:38:58,910 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:38:58,912 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-01-15 07:38:58,912 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:38:58,913 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-01-15 07:38:58,915 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-01-15 07:41:16,983 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@77258e59 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@77258e59 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@77258e59 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@77258e59 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@77258e59 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@77258e59 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@77258e59 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@77258e59 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@77258e59 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@77258e59 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@77258e59 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@77258e59 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@77258e59 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@77258e59 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@77258e59 - There is no conversion class registered for conversion word [wEx]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@77258e59 - [wEx] is not a valid conversion word
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:306)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.reed.telegram.App.main(App.java:16)
+2021-01-15 07:41:52,188 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-15 07:41:52,277 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 72ms. Found 3 JPA repository interfaces.
+2021-01-15 07:41:52,643 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-01-15 07:41:52,793 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-01-15 07:41:53,107 INFO liquibase.logging.core.JavaLogger [main] Successfully acquired change log lock
+2021-01-15 07:41:53,346 INFO liquibase.logging.core.JavaLogger [main] Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2021-01-15 07:41:53,349 INFO liquibase.logging.core.JavaLogger [main] Reading from PUBLIC.DATABASECHANGELOG
+2021-01-15 07:41:53,431 INFO liquibase.logging.core.JavaLogger [main] Table users created
+2021-01-15 07:41:53,434 INFO liquibase.logging.core.JavaLogger [main] Table messages created
+2021-01-15 07:41:53,437 INFO liquibase.logging.core.JavaLogger [main] Table domains created
+2021-01-15 07:41:53,437 INFO liquibase.logging.core.JavaLogger [main] ChangeSet db/changelog/db.changelog-main.yml::1::reed ran successfully in 26ms
+2021-01-15 07:41:53,453 INFO liquibase.logging.core.JavaLogger [main] Successfully released change log lock
+2021-01-15 07:41:53,546 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:41:53,556 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-01-15 07:41:53,600 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-15 07:41:53,666 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-15 07:41:53,865 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-15 07:41:53,992 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-15 07:41:54,625 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-15 07:41:54,637 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:41:54,780 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2021-01-15 07:41:55,122 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2021-01-15 07:41:56,179 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:41:56,182 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-01-15 07:41:56,184 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:41:56,185 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-01-15 07:41:56,189 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-01-15 07:42:37,391 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-15 07:42:37,481 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 77ms. Found 3 JPA repository interfaces.
+2021-01-15 07:42:37,861 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-01-15 07:42:38,002 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-01-15 07:42:38,347 INFO liquibase.logging.core.JavaLogger [main] Successfully acquired change log lock
+2021-01-15 07:42:38,575 INFO liquibase.logging.core.JavaLogger [main] Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2021-01-15 07:42:38,579 INFO liquibase.logging.core.JavaLogger [main] Reading from PUBLIC.DATABASECHANGELOG
+2021-01-15 07:42:38,673 INFO liquibase.logging.core.JavaLogger [main] Table users created
+2021-01-15 07:42:38,676 INFO liquibase.logging.core.JavaLogger [main] Table messages created
+2021-01-15 07:42:38,680 INFO liquibase.logging.core.JavaLogger [main] Table domains created
+2021-01-15 07:42:38,680 INFO liquibase.logging.core.JavaLogger [main] ChangeSet db/changelog/db.changelog-main.yml::1::reed ran successfully in 29ms
+2021-01-15 07:42:38,700 INFO liquibase.logging.core.JavaLogger [main] Successfully released change log lock
+2021-01-15 07:42:38,801 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:42:38,810 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2021-01-15 07:42:38,852 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-15 07:42:38,913 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-15 07:42:39,099 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-15 07:42:39,240 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-15 07:42:39,945 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2021-01-15 07:42:39,955 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-15 07:42:39,969 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:42:40,326 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2021-01-15 07:42:57,334 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:42:57,336 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-01-15 07:42:57,337 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:42:57,337 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-01-15 07:42:57,340 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.

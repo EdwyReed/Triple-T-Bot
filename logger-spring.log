@@ -1,0 +1,65 @@
+2021-01-15 07:12:24.079  INFO 1292 --- [main] com.reed.telegram.App                    : Starting App on DESKTOP-I7S7LJR with PID 1292 (D:\triple-t-bot\target\classes started by wadel in D:\triple-t-bot)
+2021-01-15 07:12:24.084  INFO 1292 --- [main] com.reed.telegram.App                    : No active profile set, falling back to default profiles: default
+2021-01-15 07:12:24.619  INFO 1292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-15 07:12:24.697  INFO 1292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69ms. Found 3 JPA repository interfaces.
+2021-01-15 07:12:25.037  INFO 1292 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-15 07:12:25.153  INFO 1292 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-15 07:12:25.478  INFO 1292 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2021-01-15 07:12:25.693  INFO 1292 --- [main] liquibase.changelog                      : Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2021-01-15 07:12:25.697  INFO 1292 --- [main] liquibase.changelog                      : Reading from PUBLIC.DATABASECHANGELOG
+2021-01-15 07:12:25.772  INFO 1292 --- [main] liquibase.changelog                      : Table users created
+2021-01-15 07:12:25.775  INFO 1292 --- [main] liquibase.changelog                      : Table messages created
+2021-01-15 07:12:25.778  INFO 1292 --- [main] liquibase.changelog                      : Table domains created
+2021-01-15 07:12:25.778  INFO 1292 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-main.yml::1::reed ran successfully in 17ms
+2021-01-15 07:12:25.794  INFO 1292 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2021-01-15 07:12:25.888  INFO 1292 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:12:25.896  INFO 1292 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-01-15 07:12:25.938  INFO 1292 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-15 07:12:25.996  INFO 1292 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-15 07:12:26.148  INFO 1292 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-15 07:12:26.310  INFO 1292 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-15 07:12:26.904  INFO 1292 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-15 07:12:26.914  INFO 1292 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:12:27.005  INFO 1292 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-01-15 07:12:27.326  INFO 1292 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-01-15 07:12:27.339  INFO 1292 --- [main] com.reed.telegram.App                    : Started App in 3.849 seconds (JVM running for 5.118)
+2021-01-15 07:12:36.472  INFO 1292 --- [TgramTestTask_Bot Telegram Executor] com.reed.telegram.bot.Bot                : Message from user @EdwardReed received successfully.
+2021-01-15 07:12:36.648  INFO 1292 --- [TgramTestTask_Bot Telegram Executor] com.reed.telegram.bot.Bot                : No user with this username. Saving new user to DB...
+2021-01-15 07:12:36.649  INFO 1292 --- [TgramTestTask_Bot Telegram Executor] com.reed.telegram.bot.Bot                : Sending message. Chat ID: 605290198
+2021-01-15 07:12:36.900  INFO 1292 --- [TgramTestTask_Bot Telegram Executor] com.reed.telegram.bot.Bot                : Message successfully sent and saved to DB.
+2021-01-15 07:12:36.909  INFO 1292 --- [TgramTestTask_Bot Telegram Executor] com.reed.telegram.bot.Bot                : User successfully saved.
+2021-01-15 07:12:44.365  INFO 1292 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:12:44.368  INFO 1292 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-01-15 07:12:44.369  INFO 1292 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:12:44.369  INFO 1292 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-01-15 07:12:44.371  INFO 1292 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-01-15 07:17:00.415  INFO 14116 --- [main] com.reed.telegram.App                    : Starting App on DESKTOP-I7S7LJR with PID 14116 (D:\triple-t-bot\target\classes started by wadel in D:\triple-t-bot)
+2021-01-15 07:17:00.418  INFO 14116 --- [main] com.reed.telegram.App                    : No active profile set, falling back to default profiles: default
+2021-01-15 07:17:00.899  INFO 14116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-15 07:17:00.984  INFO 14116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75ms. Found 3 JPA repository interfaces.
+2021-01-15 07:17:01.366  INFO 14116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-15 07:17:01.506  INFO 14116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-15 07:17:01.829  INFO 14116 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2021-01-15 07:17:02.026  INFO 14116 --- [main] liquibase.changelog                      : Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2021-01-15 07:17:02.029  INFO 14116 --- [main] liquibase.changelog                      : Reading from PUBLIC.DATABASECHANGELOG
+2021-01-15 07:17:02.115  INFO 14116 --- [main] liquibase.changelog                      : Table users created
+2021-01-15 07:17:02.125  INFO 14116 --- [main] liquibase.changelog                      : Table messages created
+2021-01-15 07:17:02.129  INFO 14116 --- [main] liquibase.changelog                      : Table domains created
+2021-01-15 07:17:02.129  INFO 14116 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-main.yml::1::reed ran successfully in 28ms
+2021-01-15 07:17:02.145  INFO 14116 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2021-01-15 07:17:02.232  INFO 14116 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:17:02.239  INFO 14116 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-01-15 07:17:02.277  INFO 14116 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-15 07:17:02.334  INFO 14116 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-15 07:17:02.511  INFO 14116 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-15 07:17:02.662  INFO 14116 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-15 07:17:03.268  INFO 14116 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-15 07:17:03.279  INFO 14116 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:17:03.623  INFO 14116 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-01-15 07:17:03.938  INFO 14116 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-01-15 07:17:03.950  INFO 14116 --- [main] com.reed.telegram.App                    : Started App in 4.252 seconds (JVM running for 5.428)
+2021-01-15 07:17:09.316  INFO 14116 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 07:17:09.318  INFO 14116 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-01-15 07:17:09.319  INFO 14116 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-15 07:17:09.319  INFO 14116 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-01-15 07:17:09.321  INFO 14116 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

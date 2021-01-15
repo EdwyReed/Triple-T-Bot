@@ -1,0 +1,139 @@
+databaseChangeLog:
+  - logicalFilePath: db/changelog/db.changelog-main.yml
+  - changeSet:
+      id: 1
+      author: reed
+      changes:
+        - createTable:
+            tableName: users
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: first_name
+                  type: varchar(250)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: last_name
+                  type: varchar(250)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: username
+                  type: varchar(250)
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: last_message_at
+                  type: integer
+                  constraints:
+                    nullable: false
+              - column:
+                  name: chat_id
+                  type: varchar(250)
+                  constraints:
+                    nullable: false
+
+        - createTable:
+            tableName: messages
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: chat_id
+                  type: varchar(250)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: user_message
+                  type: clob
+              - column:
+                  name: bot_message
+                  type: clob
+                  constraints:
+                    nullable: false
+
+        - createTable:
+            tableName: domains
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: domainname
+                  type: varchar(250)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: hotness
+                  type: integer
+                  constraints:
+                    nullable: false
+              - column:
+                  name: price
+                  type: integer
+                  constraints:
+                    nullable: false
+              - column:
+                  name: x_value
+                  type: integer
+                  constraints:
+                    nullable: false
+              - column:
+                  name: yandex_tic
+                  type: integer
+                  constraints:
+                    nullable: false
+              - column:
+                  name: links
+                  type: integer
+                  constraints:
+                    nullable: false
+              - column:
+                  name: visitors
+                  type: integer
+                  constraints:
+                    nullable: false
+              - column:
+                  name: registrar
+                  type: varchar(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: old
+                  type: integer
+                  constraints:
+                    nullable: false
+              - column:
+                  name: delete_date
+                  type: varchar(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: rkn
+                  type: clob
+                  constraints:
+                    nullable: false
+              - column:
+                  name: judicial
+                  type: boolean
+                  constraints:
+                    nullable: false
+              - column:
+                  name: block
+                  type: boolean
+                  constraints:
+                    nullable: false
