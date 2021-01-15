@@ -39,17 +39,7 @@
         <appender-ref ref="Console" />
     </root>
 
-    <logger name="com.reed" level="trace" >
-        <appender-ref ref="RollingFile" />
-        <appender-ref ref="Console" />
-    </logger>
-
-    <logger name="com.reed" level="debug" >
-        <appender-ref ref="RollingFile" />
-        <appender-ref ref="Console" />
-    </logger>
-
-    <logger name="com.reed" level="warn" >
+    <logger name="com.reed.telegram" level="debug" additivity="false">
         <appender-ref ref="RollingFile" />
         <appender-ref ref="Console" />
     </logger>
