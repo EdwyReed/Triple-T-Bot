@@ -44,7 +44,7 @@ public class Scheduler {
     private JpaDomainsRepository jpaDomainsRepository;
     private Bot bot;
 
-    @Scheduled(cron = "0 */5 * * * ?")
+    @Scheduled(cron = "0 0 1 * * ?")
     public void requestAndSaveDomains() {
         log.info("Scheduled task triggered. Building request and downloading domains list...");
 
