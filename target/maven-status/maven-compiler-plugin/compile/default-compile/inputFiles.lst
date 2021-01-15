@@ -1,9 +1,0 @@
-D:\triple-t-bot\src\main\java\com\reed\telegram\entity\Domain.java
-D:\triple-t-bot\src\main\java\com\reed\telegram\Scheduler.java
-D:\triple-t-bot\src\main\java\com\reed\telegram\repository\JpaUsersRepository.java
-D:\triple-t-bot\src\main\java\com\reed\telegram\entity\Message.java
-D:\triple-t-bot\src\main\java\com\reed\telegram\bot\Bot.java
-D:\triple-t-bot\src\main\java\com\reed\telegram\repository\JpaMessagesRepository.java
-D:\triple-t-bot\src\main\java\com\reed\telegram\repository\JpaDomainsRepository.java
-D:\triple-t-bot\src\main\java\com\reed\telegram\App.java
-D:\triple-t-bot\src\main\java\com\reed\telegram\entity\User.java
